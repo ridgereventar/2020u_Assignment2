@@ -37,5 +37,7 @@ Steps on Running the code:
   ii) select any file on the right(ServersFiles) and hit the Download button to send to the clientsFolder.
  iii) hit the refresh button to show any changes made between other clients and the server.
 
-NOTE: Null pointer Exception messages may appear when clicking on buttons. Was unable to figure out the cause.
-      However, buttons functionality works fine. The files are transferred on command and Trees refreshed.
+NOTES:
+- Null pointer Exception messages may appear when clicking on buttons. Was unable to figure out the cause.
+However, buttons functionality works fine. The files are transferred on command and Trees refreshed.
+- Program runs on Java 1.8
