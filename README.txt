@@ -6,18 +6,18 @@ By: Martin Reventar, 100623912
 
 Steps on downloading:
 1) Open the link given above, which will redirect you to my public github repository.
-2) Click on "Clone or download" button, and select download ZIP.
-3) Locate the ZIP file in file browser and open it to create a folder.
+2) Change directory into the folder you wish to clone our project
+3) use the url to clone.
 4) Open IntelliJ IDEA.
 5) Open the folder.
-6) the 'serverFolder' included contains the contents of the files in the server.
 
 Steps on Running the code:
 1) Run the Server.java file first to create the server.
    A msg will print out on the system to indicate that the server is up and listening.
 2) Run the Client.java file to create a client.
 3) The system will then wait for a command to be entered, use either of the following:
-   i) DIR (return filelist of the server)
+   NOTE: the commands are entered in the 'Run' panel on intellij.
+   i) DIR (return file list of the server)
   ii) UPLOAD <filename> (writes a newFile onto the server)
       -> this command is followed by the user inputted contents of the file
       -> the file will end when the user types "DONE" on a newline.
