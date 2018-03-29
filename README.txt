@@ -4,14 +4,15 @@ By: Martin Reventar, 100623912
     Dominic Cabitac, 100547918
 
 
-Steps on downloading:
-1) Open the link given above, which will redirect you to our public github repository.
-2) Change directory into the folder you wish to clone our project
-3) use the url to clone.
-4) Open IntelliJ IDEA.
-5) Open the folder.
-
 https://github.com/ridgereventar/2020u_Assignment2.git
+
+Steps on downloading:
+1) Click link to go to GitHub assignment repository.
+2) Open terminal/cmd
+3) Change directory into folder you wish to clone this repo: cd <dir_path>
+4) Clone repo with: git clone https://github.com/ridgereventar/2020u_Assignment2.git
+5) Open Intellij IDEA
+6) Choose the repo recently cloned: <dir_path>/2020u_Assignment2
 
 Steps on Running the code:
 1) Run the Server.java file first to create the server.
