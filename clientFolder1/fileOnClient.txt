@@ -1,0 +1,4 @@
+csci2020
+csci2040
+csci2072
+math2050

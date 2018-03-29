@@ -1,0 +1,5 @@
+quizzes = 78
+assignments = 80
+participation = 67
+midterm = 81
+exam = 76

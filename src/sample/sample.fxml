@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.control.TextArea?>
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="412.0" prefWidth="642.0" VBox.vgrow="ALWAYS">
+                <children>
+                    <Button fx:id="uploadB" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Upload" onAction="#uploadFile"/>
+                    <SplitPane dividerPositions="0.5008210180623974" layoutX="14.0" layoutY="48.0" prefHeight="540.0" prefWidth="775.0" >
+                        <items>
+                            <TreeView fx:id="clientTreeView" minHeight="250" minWidth="385" maxWidth="385" prefHeight="160.0" prefWidth="100.0" />
+                            <TreeView fx:id="serverTreeView" minHeight="250" minWidth="385" maxWidth="385" prefHeight="160.0" prefWidth="100.0" />
+                        </items>
+                    </SplitPane>
+                    <Button fx:id="downloadB" layoutX="105.0" layoutY="14.0" mnemonicParsing="false" text="Download" onAction="#downloadFile"/>
+                    <Button fx:id="refreshB" layoutX="210.0" layoutY="14.0" mnemonicParsing="false" text="Refresh" onAction="#refreshTrees"/>
+
+                </children>
+            </AnchorPane>
+        </children>
+    </VBox>
+</BorderPane>
