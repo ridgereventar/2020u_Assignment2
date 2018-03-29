@@ -11,6 +11,8 @@ Steps on downloading:
 4) Open IntelliJ IDEA.
 5) Open the folder.
 
+https://github.com/ridgereventar/2020u_Assignment2.git
+
 Steps on Running the code:
 1) Run the Server.java file first to create the server.
    A msg will print out on the system to indicate that the server is up and listening.
