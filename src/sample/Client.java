@@ -42,6 +42,7 @@ public class Client extends Application {
             clientDir = new File("/Users/RidgeReventar/IdeaProjects/Assignment2/" + "clientFolder" + Integer.toString(clientCount));
             clientDir.mkdir();
 
+            System.out.println("Enter a command to send to the server: (DIR, UPLOAD <filename>, DOWNLOAD <filename>)");
             // Store the user input command in a String variable.
             String command = brSystem.readLine();
             if(command.matches("DIR")) {
