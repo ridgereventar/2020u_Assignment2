@@ -1,7 +1,7 @@
 csci2020u Assignment 2:
 
 By: Martin Reventar, 100623912
-    Dominic Cabitac,
+    Dominic Cabitac, 100547918
 
 
 Steps on downloading:
