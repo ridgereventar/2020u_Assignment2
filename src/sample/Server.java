@@ -16,7 +16,7 @@ import java.util.Date;
 public class Server extends Application {
 
     private ServerSocket serverSocket;
-    public File serverDir = new File("/Users/RidgeReventar/IdeaProjects/Assignment2/serverFolder");
+    public File serverDir = new File(System.getProperty("user.dir") + "/serverFolder");
     public ClientCounter counter = new ClientCounter(0);
 
     @Override

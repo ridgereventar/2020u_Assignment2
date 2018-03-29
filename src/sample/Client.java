@@ -38,8 +38,8 @@ public class Client extends Application {
             int clientCount = Integer.parseInt(br.readLine());
 
             // Set up client and server Directories
-            serverDir = new File("/Users/RidgeReventar/IdeaProjects/Assignment2/serverFolder");
-            clientDir = new File("/Users/RidgeReventar/IdeaProjects/Assignment2/" + "clientFolder" + Integer.toString(clientCount));
+            serverDir = new File(System.getProperty("user.dir") + "/serverFolder");
+            clientDir = new File(System.getProperty("user.dir") + "/clientFolder" + Integer.toString(clientCount));
             clientDir.mkdir();
 
             System.out.println("Enter a command to send to the server: (DIR, UPLOAD <filename>, DOWNLOAD <filename>)");
