@@ -5,7 +5,7 @@ By: Martin Reventar, 100623912
 
 
 Steps on downloading:
-1) Open the link given above, which will redirect you to my public github repository.
+1) Open the link given above, which will redirect you to our public github repository.
 2) Change directory into the folder you wish to clone our project
 3) use the url to clone.
 4) Open IntelliJ IDEA.
